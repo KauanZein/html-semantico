@@ -33,7 +33,6 @@ Teste do *italico*
 
 Método `console.log()`no JavaScript
 
-`MMMMMMMMMMM`
 
 ```js
 document.querySelector('html');
