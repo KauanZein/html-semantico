@@ -3,13 +3,13 @@
 
 Teste do **negrito**
 
-Teste do *italico* Kauan
+Teste do *italico*
 
 [Google](https://google.com/)
 
 <https://google.com/>
 
-* Arroz Japonês Chinês
+* Arroz Japonês
 * Nori
 * Gengibre
 * Pepino
