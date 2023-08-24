@@ -9,7 +9,7 @@ Teste do *italico* Kauan
 
 <https://google.com/>
 
-* Arroz Japonês
+* Arroz Japonês Chinês
 * Nori
 * Gengibre
 * Pepino
