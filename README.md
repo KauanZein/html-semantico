@@ -3,7 +3,7 @@
 
 Teste do **negrito**
 
-Teste do *italico*
+Teste do *italico* Kauan
 
 [Google](https://google.com/)
 
