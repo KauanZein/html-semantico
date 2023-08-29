@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth; /* comportamento do sroll: suave */
+}
+body {
+    color:rgb(0, 0, 0)
+}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }

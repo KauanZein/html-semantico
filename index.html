@@ -1,16 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html Semãntico</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tags semânticas do HTML</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
 
-<body>
-    <header>
-        <h1>html Semântico</h1>
-        <h2>Dando significado ás estruturas</h2>
-       <p>Vamos utilizar estruturas semânticas para marcar o conteudo da pagina</p>
-   </header>
-</body>
-</html>
+    <body>
+        <article>
+            <header id="topo-pagina">
+                <h1>Tags semânticas do HTML</h1>
+                <p>Vamos descobrir mais sobre as tags semânticas</p>
+                
+       <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#introdução">Introdução</a>
+                </li>
+                <li>
+                    <a href="#porque">Porque</a>
+                </li>
+                <li>
+                    <a href="#exemplos">Exemplos</a>
+                </li>
+            </ul>
+        </nav>
+       
+            </header>
+        </article>
+
+   
+        <section id="introdução"> 
+            <h2>O que são tags semânticas?</h2>
+            <p>Estas tags são chamadas também de elementos semânticos, ou seja, que conseguem passar uma 
+                informação com um significado<br>específico para o conteúdo 
+                interpretado pelo navegador, não depende apenas do texto dentro da tag para se entender 
+                o que há naquela parte do site.</p>
+        </section>
+    
+        <section id="porque">
+            <h2>Porque usar tags semânticas?</h2>
+            <p>Como programador, você lerá centenas ou milhares de linhas de código. 
+                Quanto mais fácil for ler e entender o código, mais fácil será seu trabalho.</p>
+            
+            <blockquote cite="https://www.treinaweb.com.br/blog/semantica-html-o-que-e-e-por-que-e-importante">
+                <p>As tags semânticas nos ajudam a estruturar o conteúdo da nossa página de uma forma 
+                  lógica e significativa, permitindo que leitores de tela, por exemplo, possam identificar 
+                  facilmente o que é um título, um parágrafo ou uma lista. A Semântica HTML é importante para 
+                  a acessibilidade porque permite que as pessoas com deficiências visuais ou outras limitações 
+                  possam navegar pelas páginas com mais facilidade.</p>
+            </blockquote>  
+        
+            <details>
+                <summary>Atenção!!!</summary>
+                <p>Uma coisa que precisamos lembrar é que devemos escolher as tags pelo o que elas representam e 
+                não como elas são mostradas na tela do navegador. Estilização deve ficar no CSS e estrutura no HTML.</p>
+            </details>
+        </section>
+        
+            <br>
+            <aside>
+                <p>Atualmente o papel da HTML não é apenas estruturar documentos para a web, mas também descrever o 
+                    significado do conteúdo presente nesses documentos por meio de tags semânticas. O HTML semântico 
+                    tem como objetivo descrever o significado do conteúdo presente em documentos HTML, tornando-o mais 
+                    claro tanto para programadores quanto para browsers e outras engines que processam essa informação.</p>
+            </aside>   
+        <section id="exemplos">
+            <h2>Exemplos de tags semânticas</h2>
+            <p></p>
+        
+            <figure>
+                <img src="./download.png" alt="Tag semântica" style="width:40%; height:200;">
+                <figcaption></figcaption>
+            </figure>
+        
+            <details>
+                <summary>Tags</summary>
+                    <ul>
+                        <li>&lt;header></li>
+                        <li>&lt;section></li>
+                        <li>&lt;article></li>
+                        <li>&lt;nav></li>
+                        <li>&lt;aside></li>
+                        <li>&lt;main></li>
+                        <li>&lt;figure></li>
+                        <li>&lt;footer></li>
+                        <li>&lt;a></li>
+                        <li>&lt;em></li>
+                        <li>&lt;strong></li>
+                        <li>&lt;cite></li>
+                        <li>&lt;q></li>
+                        <li>&lt;time></li>
+                        <li>&lt;ul></li>
+                    </ul>
+            </details>
+        </section>
+            
+            
+        <footer>
+            <a href="#topo-pagina">Topo da pagina</a>
+            <p>Desenvolvido por<a href="https://github.com/KauanZein"> Kauan Zein</a></p> 
+        </footer>
+    </body>
+</html>                 
