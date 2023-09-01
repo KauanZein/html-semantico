@@ -16,6 +16,12 @@ aside {
     background-color: rgba(212, 197, 197, 0.685);
 }
 
+h1 {
+    color: saddlebrown;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 22pt;
+}   
     
 
 
