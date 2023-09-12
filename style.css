@@ -2,8 +2,11 @@ html {
     scroll-behavior: smooth; /* comportamento do sroll: suave */
 }
 body {
-    color:rgb(0, 0, 0)
+    margin: 20px 50px;
+    text-align: justify;
+    background-color:#7a0c90; 
 }
+
 aside {
     width: 30%;
     padding: 20px;
@@ -16,14 +19,62 @@ aside {
     background-color: rgba(212, 197, 197, 0.685);
 }
 
-h1 {
-    color: saddlebrown;
+.titulo-principal {
+    color: #7fffd4;
     line-height: 2;
     font-weight: bold;
     font-size: 22pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-primario {
+    color: #7fffd4;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 22pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
 }   
     
+.titulo-secundario {
+    color: #7fffd4;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
 
+.titulo-de-secao {
+    color: #7fffd4;
+    line-height: 1.8;
+    font-size: 22pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}   
 
+.titulo-de-secao-secundario {
+    color: rgb(216, 219, 31);
+    line-height: 1.8;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
 
-  
+p {
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+article {
+    border: 2px solid rgb(247, 242, 247);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #8fbe0d;
+}
