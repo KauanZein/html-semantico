@@ -1,3 +1,12 @@
+:root {
+    --cor-primeira: #7fffd4;
+    --cor-segunda: #d8db1f;
+    --cor-terceira: #7a0c90;
+    --cor-quarta: #ffffff;
+    --cor-quinta: #d4c5c5af;
+    --cor-sexta: #dc143c;
+}   
+
 html {
     scroll-behavior: smooth; /* comportamento do sroll: suave */
 }
@@ -16,11 +25,11 @@ aside {
     margin-right: 70px;
     float: right;
     font-style: italic;
-    background-color: rgba(212, 197, 197, 0.685);
+    background-color: #d4c5c5af;
 }
 
 .titulo-principal {
-    color: #7fffd4;
+    color: var(--cor-primeira);
     line-height: 2;
     font-weight: bold;
     font-size: 22pt;
@@ -28,7 +37,7 @@ aside {
 }
 
 .titulo-primario {
-    color: #7fffd4;
+    color: var(--cor-primeira);
     line-height: 2;
     font-weight: bold;
     font-size: 22pt;
@@ -37,8 +46,8 @@ aside {
 }   
     
 .titulo-secundario {
-    color: #7fffd4;
-    line-height: 2;
+    color: var(--cor-primeira);
+    line-height: 1.8;
     font-weight: bold;
     font-size: 18pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -46,7 +55,7 @@ aside {
 }
 
 .titulo-de-secao {
-    color: #7fffd4;
+    color: var(--cor-primeira);
     line-height: 1.8;
     font-size: 22pt;
     font-weight: bold;
@@ -55,7 +64,7 @@ aside {
 }   
 
 .titulo-de-secao-secundario {
-    color: rgb(216, 219, 31);
+    color: #d8db1f;
     line-height: 1.8;
     font-size: 18pt;
     font-weight: bold;
@@ -68,13 +77,25 @@ p {
     line-height: 1.2;
 }
 
-article {
-    border: 2px solid rgb(247, 242, 247);
+.article-principal {
+    border: 2px solid #ffffff;
     padding: 20px;
     margin: 20px 0;
 }
 
 a {
     text-decoration: none;
-    color: #8fbe0d;
+    color: #d8db1f;
 }
+
+.Atenção {
+    color: #dc143c;
+    line-height: 1.9;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+
+    
