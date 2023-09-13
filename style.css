@@ -1,10 +1,10 @@
 :root {
     --cor-primeira: #7fffd4;
-    --cor-segunda: #d8db1f;
+    --cor-segunda: #09ac75;
     --cor-terceira: #7a0c90;
     --cor-quarta: #ffffff;
     --cor-quinta: #d4c5c5af;
-    --cor-sexta: #dc143c;
+    --cor-sexta: #e4d61a;
 }   
 
 html {
@@ -13,7 +13,7 @@ html {
 body {
     margin: 20px 50px;
     text-align: justify;
-    background-color:#7a0c90; 
+    background-color:var(--cor-terceira); 
 }
 
 aside {
@@ -22,10 +22,11 @@ aside {
     padding-left: 15px;
     margin-left: 15px;
     margin-top: 150px;
-    margin-right: 70px;
+    margin-right: 270px;
     float: right;
     font-style: italic;
-    background-color: #d4c5c5af;
+    border-radius: 20px;
+    background-color: var(--cor-quinta);
 }
 
 .titulo-principal {
@@ -64,38 +65,77 @@ aside {
 }   
 
 .titulo-de-secao-secundario {
-    color: #d8db1f;
+    color: var(--cor-primeira);
     line-height: 1.8;
     font-size: 18pt;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    margin-bottom: 18px;
 }
 
 p {
-    color: #ffffff;
+    color: var(--cor-quarta);
     line-height: 1.2;
 }
 
 .article-principal {
-    border: 2px solid #ffffff;
+    border: 2px solid var(--cor-quarta);
     padding: 20px;
     margin: 20px 0;
+    border-radius: 20px 0;
 }
 
 a {
     text-decoration: none;
-    color: #d8db1f;
+    color: var(--cor-segunda);
 }
 
 .Atenção {
-    color: #dc143c;
+    color: var(--cor-sexta);
     line-height: 1.9;
     font-size: 18px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    margin-top: 18px;
 }
 
+.tags {
+    color: var(--cor-sexta);
+    line-height: 1.9;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 18px;
+}   
 
-    
+.botao-do-topo {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 10px 15px;
+    border: 2px solid var(--cor-segunda);
+}   
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+}
+
+figcaption {
+    color: var(--cor-quarta);
+}
+
+li {
+    color: var(--cor-quarta);
+}
+
+.article-principal p {
+    padding: 15px;
+    font-size: 18px;
+    font-style: italic;
+}
