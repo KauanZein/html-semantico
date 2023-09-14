@@ -139,3 +139,20 @@ li {
     font-size: 18px;
     font-style: italic;
 }
+
+article p:first-of-type {
+    border-radius: 20px 0 0 0;
+}
+
+article p:last-of-type {
+    border-radius: 0 0 20px 0;
+}
+
+article p:only-of-type {
+    border-radius: 20px 0 20px 0;
+}
+
+article p {
+    padding: 20px;
+    background-color: var(--cor-segunda);
+}
