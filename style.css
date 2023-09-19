@@ -140,6 +140,13 @@ li {
     font-style: italic;
 }
 
+article {
+    margin: 20px;
+    border: 2px solid var(--cor-segunda);
+    border-radius: 20px 0 20px 0;
+    padding: 10px;
+}
+
 article p:first-of-type {
     border-radius: 20px 0 0 0;
 }
@@ -155,4 +162,46 @@ article p:only-of-type {
 article p {
     padding: 20px;
     background-color: var(--cor-segunda);
+
+}   
+
+.titulo-de-artigo {
+    color: var(--cor-primeira);
+    line-height: 1;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.subtitulo-de-artigo {
+    color: var(--cor-quarta);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 10px;
+}
+
+#artigos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artigo {
+    width: 25%;
+}
+
+ul {
+    display: flex;
+    justify-content:space-evenly;
+    background-color:var(--cor-sexta);
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+li  {
+    color: var(--cor-segunda);
 }
